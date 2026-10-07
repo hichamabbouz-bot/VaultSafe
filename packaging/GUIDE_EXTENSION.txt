@@ -1,0 +1,30 @@
+VaultSafe — activer l'extension Chrome / Edge
+
+1. Ouvrez chrome://extensions dans Chrome ou edge://extensions dans Edge.
+2. Activez « Mode développeur ».
+3. Cliquez « Charger l'extension non empaquetée ».
+4. Sélectionnez le dossier extension à côté de VaultSafe.exe installé.
+   Le setup propose « Ouvrir le dossier extension » et « Copier le chemin ».
+5. Ouvrez votre coffre dans VaultSafe, puis Paramètres > Avancé.
+   Cliquez « Associer » pour autoriser la liaison native avec ce coffre.
+   L'identifiant stable de l'extension est :
+   egbpodcdijmeibnmfabhiignfppmclbl
+6. Ouvrez une page HTTPS et cliquez l'icône de l'extension.
+   Son état doit être « Connecté » quand le coffre est ouvert.
+   Un coffre verrouillé reste protégé ; l'extension propose de l'ouvrir.
+
+Les captures sont détectées en arrière-plan. Le petit panneau permet
+d'enregistrer en un clic. Le mode automatique est un choix explicite dans
+Paramètres > Avancé. Le popup de l'icône propose remplissage et générateur.
+
+Après une mise à niveau : fermez le navigateur ou rechargez l'extension depuis
+sa page de gestion, puis actualisez les pages ouvertes pour les nouveaux scripts.
+Acceptez les permissions si le navigateur vous le demande.
+Si l'emplacement du programme change, associez de nouveau dans VaultSafe :
+le manifeste natif doit pointer vers le nouvel exécutable.
+
+Ne déplacez pas le dossier extension installé : le navigateur le charge depuis
+cet emplacement stable. La désinstallation le retire ; les données du coffre
+restent conservées. Retirez aussi l'extension de votre navigateur si souhaité.
+
+Le même guide est accessible dans Paramètres > Avancé > Guide de l'extension.

@@ -1,0 +1,19 @@
+Qt / Qt for Python / Shiboken 6.11.2
+Copyright The Qt Company Ltd. et les contributeurs Qt.
+
+VaultSafe utilise les bibliotheques non modifiees distribuees avec
+PySide6-Essentials et Shiboken6, sous leur option LGPL version 3.
+Les textes LGPL v3 et GPL v3 accompagnent ce fichier.
+Les bibliotheques partagees restent dans _internal : elles ne sont pas
+liees statiquement dans VaultSafe.exe. Leur remplacement par des versions
+compatibles et l'analyse necessaire a leur modification ne sont pas interdits.
+
+Sources correspondant a la version utilisee :
+https://code.qt.io/cgit/qt/qtbase.git/?h=v6.11.2
+https://code.qt.io/cgit/pyside/pyside-setup.git/?h=v6.11.2
+Informations et notices officielles :
+https://doc.qt.io/qtforpython-6/licenses.html
+https://doc.qt.io/qt-6/licenses.html
+
+Les metadonnees et licences des autres dependances sont conservees
+dans _internal. Ce document ne choisit pas la licence du code VaultSafe.

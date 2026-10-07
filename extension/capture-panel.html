@@ -1,0 +1,12 @@
+<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Enregistrement VaultSafe</title><link rel="stylesheet" href="capture-panel.css"></head><body>
+<header><img src="brand.svg" width="19" height="22" alt=""><strong>VaultSafe</strong><button id="fermer" class="icone" aria-label="Ignorer">×</button></header>
+<main><div class="service"><span id="logo"></span><div><strong id="service">Compte détecté</strong><small id="origine"></small></div></div>
+<p id="message" role="status" aria-live="polite">Préparation…</p>
+<section id="formulaire" hidden><label>Identifiant<input id="utilisateur" maxlength="200" autocomplete="off"></label>
+<label>Mot de passe<div class="secret"><input id="mot" type="password" maxlength="4096" autocomplete="new-password"><button id="oeil" class="icone" aria-label="Afficher le mot de passe"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg></button></div></label>
+<div id="choix-compte" hidden><label>Compte à mettre à jour</label><div id="compte" class="choix"></div></div>
+<details id="options"><summary>Options</summary><label>Dossier <span>(facultatif)</span></label><div id="dossier" class="choix"></div>
+<button id="exclure" class="texte discret">Ne plus proposer sur ce site</button></details>
+<div class="actions"><button id="ignorer" class="secondaire">Ignorer</button><button id="sauver" class="principal">Enregistrer</button></div></section>
+<button id="ouvrir" class="principal" hidden>Déverrouiller VaultSafe pour enregistrer</button>
+</main><script type="module" src="capture-panel.js"></script></body></html>

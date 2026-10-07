@@ -1,0 +1,16 @@
+VaultSafe — application Windows locale, version alpha non signée.
+
+L'installation est effectuée pour votre compte Windows, sans Python à installer.
+Les programmes sont placés dans LocalAppData\Programs\VaultSafe.
+Les coffres et préférences restent séparés dans LocalAppData\VaultSafe ou à
+l'emplacement que vous avez choisi. La désinstallation conserve ces données.
+
+Fermez VaultSafe avant une mise à niveau. Sauvegardez vos coffres importants.
+La nouvelle version conserve les formats de coffre et l'identifiant de l'extension.
+
+L'extension est distribuée localement, sans publication sur un Store.
+Son activation nécessite le mode développeur de Chrome ou Edge.
+Aucun profil de navigateur ni politique d'entreprise n'est modifié par le setup.
+
+Code original : usage non commercial, licence PolyForm Noncommercial 1.0.0.
+Les droits et licences des composants tiers restent applicables.

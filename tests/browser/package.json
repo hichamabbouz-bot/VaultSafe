@@ -1,0 +1,1 @@
+{"name":"vaultsafe-browser-qualification","private":true,"version":"3.3.2","scripts":{"test":"node recette.cjs"},"devDependencies":{"playwright":"1.62.1"}}

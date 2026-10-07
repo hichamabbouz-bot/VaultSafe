@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VaultSafe</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><div class="marque"><img src="brand.svg" width="18" height="21" alt=""><h1>VaultSafe</h1></div><span id="etat" role="status">Connexion…</span><button id="actualiser" class="icone" aria-label="Actualiser">↻</button></header>
+<main>
+<nav aria-label="Fonctions"><button data-page="remplissage" class="actif" aria-pressed="true">Remplissage</button><button data-page="generateur" aria-pressed="false">Générateur</button></nav>
+<p id="statut" role="status" aria-live="polite" hidden></p>
+<section id="remplissage" class="page">
+<div class="site"><span id="icone-site"></span><div><strong id="service">Site ouvert</strong><small id="hote"></small></div></div>
+<div id="indisponible" class="vide" hidden><p id="message-etat"></p><button id="ouvrir" class="principal" hidden>Ouvrir VaultSafe</button></div>
+<div id="comptes" hidden><input id="recherche" type="search" placeholder="Rechercher un compte" aria-label="Rechercher un compte" autocomplete="off" hidden><div id="fiches"></div><p id="aucun" class="vide" hidden>Aucun compte pour ce site.</p></div>
+</section>
+<section id="generateur" class="page" hidden>
+<div class="secret"><input id="genere" type="password" readonly aria-label="Mot de passe généré" autocomplete="off"><div class="outils-secret"><button id="oeil" class="icone" aria-label="Afficher le mot de passe"></button><button id="copier" class="icone" aria-label="Copier le mot de passe" title="Copier"></button></div></div>
+<div class="reglage"><span>Longueur</span><div class="nombre"><button id="moins" aria-label="Réduire la longueur">−</button><output id="longueur">20</output><button id="plus" aria-label="Augmenter la longueur">+</button></div></div>
+<div class="reglage"><span>Symboles</span><button id="symboles" role="switch" aria-checked="true" class="interrupteur"><span></span></button></div>
+<div class="actions"><button id="regenerer" class="secondaire">Renouveler</button><button id="utiliser" class="principal" disabled>Utiliser sur ce site</button></div>
+</section>
+</main><script type="module" src="popup.js"></script></body></html>

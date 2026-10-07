@@ -1,0 +1,33 @@
+# Outils et fichiers créés automatiquement : ils ne font pas partie du code.
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+tests-host*/
+test-host-temp/
+*.tmp
+
+# Les données d'un coffre ou les exports ne doivent jamais être publiés.
+*.db
+*.sqlite
+*.sqlite3
+*.vaultsafe
+*.csv
+release/
+archives/
+rapports/
+node_modules/
+*.pfx
+*.pem
+*.key
+native-host.json
+interface.json
+technique.log*
+captures/
+*.lnk
+.env
+.env.*
+!.env.example
